@@ -1,15 +1,21 @@
-# Basic Sample Hardhat Project
+# Polygon Domain Name Service
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates the minting of domain names and records as NFTs on the Polygon Network. 
 
-Try running some of the following tasks:
+## Quick Start
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+git clone git@github.com:xpriment626/eth-domains-scripts.git [cloned_repo_name]
+cd [cloned_repo_name]
+```
+
+```shell
+npm install
+```
+
+Try running some of the following scripts:
+
+```shell
+npx hardhat run scripts/runner.js
+npx hardhat run scripts/payments.js
 ```
